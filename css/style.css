@@ -18,3 +18,6 @@ canvas {
 #calculatorScreen{
   display:none;
 }
+#tutorialScreen{
+  display:none
+}

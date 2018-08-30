@@ -1,6 +1,8 @@
-var homeScreen = new p5(sceneHome,"homeScreen")
-var levelsScreen1 = new p5(sceneLevels,"levelsScreen")
-var calcScreen = new p5(sceneCalculator, "calculatorScreen")
+var homeScreen = new p5(sceneHome,"homeScreen");
+var levelsScreen1 = new p5(sceneLevels,"levelsScreen");
+var tutorialScreen = new p5(sceneTutorial, "tutorialScreen");
+var calcScreen = new p5(sceneCalculator, "calculatorScreen");
+
 
 function level1(){
   calcScreen.calcButtons = [];

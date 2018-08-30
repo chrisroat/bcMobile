@@ -61,6 +61,7 @@ var sceneLevels = function(p) {
       .style("align-content", "right")
       .style('border-radius', '4px')
       .style('border', 'none')
+      .touchStarted(tutorial);
     // add a touchStarted
 
   }
@@ -78,9 +79,6 @@ var sceneLevels = function(p) {
     grid.push(p.createButton(10).position(0 * 110 + 30, Math.floor(9 / 3) * 110 + 70).touchStarted(switchScreen1));
     grid.push(p.createButton(11).position(1 * 110 + 30, Math.floor(10 / 3) * 110 + 70).touchStarted(switchScreen2));
     grid.push(p.createButton(12).position(2 * 110 + 30, Math.floor(11 / 3) * 110 + 70).touchStarted(switchScreen3));
-    grid.push(p.createButton(13).position(0 * 110 + 30, Math.floor(12 / 3) * 110 + 70).touchStarted(switchScreen4));
-    grid.push(p.createButton(14).position(1 * 110 + 30, Math.floor(13 / 3) * 110 + 70).touchStarted(switchScreen5));
-    grid.push(p.createButton(15).position(2 * 110 + 30, Math.floor(14 / 3) * 110 + 70).touchStarted(switchScreen6));
 
     for (i = 0; i < grid.length; i++) {
       string = "switchScreen"+i
@@ -163,27 +161,13 @@ var sceneLevels = function(p) {
   function switchScreen12() {
     document.getElementById("levelsScreen").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
-    level12();
   }
-  function switchScreen13() {
-    document.getElementById("levelsScreen").style.display = "none";
-    document.getElementById("calculatorScreen").style.display = "block";
-    level13();
-
-  }
-  function switchScreen14() {
-    document.getElementById("levelsScreen").style.display = "none";
-    document.getElementById("calculatorScreen").style.display = "block";
-    level14();
-  }
-  function switchScreen15() {
-    document.getElementById("levelsScreen").style.display = "none";
-    document.getElementById("calculatorScreen").style.display = "block";
-    level15();
-  }
-
   function back() {
     document.getElementById('homeScreen').style.display = 'block'
+    document.getElementById('levelsScreen').style.display = 'none'
+  }
+  function tutorial() {
+    document.getElementById('tutorialScreen').style.display = 'block'
     document.getElementById('levelsScreen').style.display = 'none'
   }
 }
