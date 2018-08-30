@@ -15,12 +15,9 @@ var sceneLevels = function(p) {
   p.setup = function() {
     p.createCanvas(p.displayWidth, p.displayHeight);
     p.background('#ccffff');
-    p.noLoop();
     createButtons();
     createLevels();
-  }
 
-  p.draw = function() {
 
     //menu bar
     p.noStroke()
@@ -31,6 +28,45 @@ var sceneLevels = function(p) {
     p.textSize(20);
     p.textFont(myFont);
     p.text('Levels', (p.displayWidth / 2) - 22, 35);
+  }
+
+  p.draw = function() {
+    if (localStorage.level1 === 'true'){
+      grid[0].style('background-color', '#ff6666')
+    }
+    if (localStorage.level2 === 'true'){
+      grid[1].style('background-color', '#ff6666')
+    }
+    if (localStorage.level3 === 'true'){
+      grid[2].style('background-color', '#ff6666')
+    }
+    if (localStorage.level4 === 'true'){
+      grid[3].style('background-color', '#ff6666')
+    }
+    if (localStorage.level5 === 'true'){
+      grid[4].style('background-color', '#ff6666')
+    }
+    if (localStorage.level6 === 'true'){
+      grid[5].style('background-color', '#ff6666')
+    }
+    if (localStorage.level7 === 'true'){
+      grid[6].style('background-color', '#ff6666')
+    }
+    if (localStorage.level8 === 'true'){
+      grid[7].style('background-color', '#ff6666')
+    }
+    if (localStorage.level9 === 'true'){
+      grid[8].style('background-color', '#ff6666')
+    }
+    if (localStorage.level10 === 'true'){
+      grid[9].style('background-color', '#ff6666')
+    }
+    if (localStorage.level11 === 'true'){
+      grid[10].style('background-color', '#ff6666')
+    }
+    if (localStorage.level12 === 'true'){
+      grid[11].style('background-color', '#ff6666')
+    }
   }
 
 
@@ -81,7 +117,7 @@ var sceneLevels = function(p) {
     grid.push(p.createButton(12).position(2 * 110 + 30, Math.floor(11 / 3) * 110 + 70).touchStarted(switchScreen3));
 
     for (i = 0; i < grid.length; i++) {
-      string = "switchScreen"+i
+      string = "switchScreen" + i
       grid[i]
         .style('height', '100px')
         .style('width', '100px')
@@ -104,68 +140,81 @@ var sceneLevels = function(p) {
     level1();
 
   }
+
   function switchScreen2() {
     document.getElementById("levelsScreen").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level2();
   }
+
   function switchScreen3() {
     document.getElementById("levelsScreen").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level3();
   }
+
   function switchScreen4() {
     document.getElementById("levelsScreen").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level4();
   }
+
   function switchScreen5() {
     document.getElementById("levelsScreen").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level5();
   }
+
   function switchScreen6() {
     document.getElementById("levelsScreen").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level6();
   }
+
   function switchScreen7() {
     document.getElementById("levelsScreen").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level7();
   }
+
   function switchScreen8() {
     document.getElementById("levelsScreen").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level8();
 
   }
+
   function switchScreen9() {
     document.getElementById("levelsScreen").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level9();
 
   }
+
   function switchScreen10() {
     document.getElementById("levelsScreen").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level10();
 
   }
+
   function switchScreen11() {
     document.getElementById("levelsScreen").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level11();
 
   }
+
   function switchScreen12() {
     document.getElementById("levelsScreen").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
   }
+
   function back() {
     document.getElementById('homeScreen').style.display = 'block'
     document.getElementById('levelsScreen').style.display = 'none'
   }
+
   function tutorial() {
     document.getElementById('tutorialScreen').style.display = 'block'
     document.getElementById('levelsScreen').style.display = 'none'

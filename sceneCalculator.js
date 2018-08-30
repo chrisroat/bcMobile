@@ -1,6 +1,3 @@
-var level1Passed = false;
-
-
 
 var sceneCalculator = function(p) {
   p.calcButtons = [];
@@ -64,6 +61,7 @@ var sceneCalculator = function(p) {
       p.ellipse(70,120,10,10);
       p.ellipse(190,120,10,10);
       p.ellipse(310,120,10,10);
+      localStorage.setItem('level'+p.level, true);
     }
     changeLevels();
   }
