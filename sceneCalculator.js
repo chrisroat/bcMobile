@@ -37,17 +37,20 @@ var sceneCalculator = function(p) {
     if (p.score === 1){
       p.fill('pink');
       p.noStroke();
-      p.ellipse(70,120,10,10)
+      p.ellipse(70,120,10,10);
     }
     if (p.score === 2){
       p.fill('pink');
       p.noStroke();
-      p.ellipse(190,120,10,10)
+      p.ellipse(70,120,10,10);
+      p.ellipse(190,120,10,10);
     }
     if (p.score === 3){
       p.fill('pink');
       p.noStroke();
-      p.ellipse(310,120,10,10)
+      p.ellipse(70,120,10,10);
+      p.ellipse(190,120,10,10);
+      p.ellipse(310,120,10,10);
     }
   }
 
@@ -133,59 +136,59 @@ var sceneCalculator = function(p) {
 
   p.makeBrokenKeys = function() {
     if (p.brokenKeys.indexOf('7') !== -1) {
-      p.calcButtons[1].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[0].style('background-color', "rgb(256,0,0)")
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('8') !== -1) {
-      p.calcButtons[2].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[1].style('background-color', "rgb(256,0,0)")
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('9') !== -1) {
-      p.calcButtons[3].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[2].style('background-color', "rgb(256,0,0)")
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('/') !== -1) {
-      p.calcButtons[4].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[3].style('background-color', "rgb(256,0,0)")
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('4') !== -1) {
-      p.calcButtons[5].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[4].style('background-color', "rgb(256,0,0)")
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('5') !== -1) {
-      p.calcButtons[6].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[5].style('background-color', "rgb(256,0,0)")
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('6') !== -1) {
-      p.calcButtons[7].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[6].style('background-color', "rgb(256,0,0)")
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('*') !== -1) {
-      p.calcButtons[8].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[7].style('background-color', "rgb(256,0,0)")
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('1') !== -1) {
-      p.calcButtons[9].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[8].style('background-color', "rgb(256,0,0)")
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('2') !== -1) {
-      p.calcButtons[10].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[9].style('background-color', "rgb(256,0,0)")
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('3') !== -1) {
-      p.calcButtons[11].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[10].style('background-color', "rgb(256,0,0)")
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('-') !== -1) {
-      p.calcButtons[12].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[11].style('background-color', "rgb(256,0,0)")
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('0') !== -1) {
-      p.calcButtons[14].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[13].style('background-color', "rgb(256,0,0)")
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('+') !== -1) {
-      p.calcButtons[16].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[14].style('background-color', "rgb(256,0,0)")
         .mousePressed(donothing);
     }
   }
