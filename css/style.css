@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+canvas {
+  margin: auto;
+}
+
+#homeScreen {
+  display:block;
+}
+#levelsScreen {
+  display:none;
+}
+#calculatorScreen{
+  display:none;
+}
