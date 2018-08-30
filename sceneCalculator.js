@@ -1,3 +1,7 @@
+var level1Passed = false;
+
+
+
 var sceneCalculator = function(p) {
   p.calcButtons = [];
   p.calcInput;
@@ -13,7 +17,6 @@ var sceneCalculator = function(p) {
   p.clearMoveHistory = function(){
     p.moveHistory = [];
   }
-
 
   p.setup = function() {
     p.createCanvas(p.displayWidth, p.displayHeight);
@@ -52,6 +55,7 @@ var sceneCalculator = function(p) {
       p.ellipse(190,120,10,10);
       p.ellipse(310,120,10,10);
     }
+    changeLevels();
   }
 
   function makeScoreBar(){
@@ -61,6 +65,42 @@ var sceneCalculator = function(p) {
     p.ellipse(70,120,10,10);
     p.ellipse(190,120,10,10);
     p.ellipse(310,120,10,10);
+  }
+
+  function changeLevels(){
+    if (p.score === 3){
+      //change alpha on level screen via localhost
+      if (p.level===14){
+        level15();
+      }
+      if (p.level===13){
+        level14();
+      }else if (p.level===12){
+        level13();
+      }else if (p.level===11){
+        level12();
+      }else if (p.level===10){
+        level11();
+      }else if (p.level===9){
+        level10();
+      }else if (p.level===8){
+        level9();
+      }else if (p.level===7){
+        level8();
+      }else if (p.level===6){
+        level7();
+      }else if (p.level===5){
+        level6();
+      }else if (p.level===4){
+        level5();
+      }else if (p.level===3){
+        level4();
+      }else if (p.level===2){
+        level3();
+      }else if (p.level===1){
+        level2();
+      }
+    }
   }
 
   function makeBackButton(){
