@@ -100,7 +100,7 @@ var sceneCalculator = function(p) {
       .style("align-content", "right");
 
 
-    for (let i = 1; i < p.calcButtons.length; i++) {
+    for (let i = 0; i < p.calcButtons.length; i++) {
       p.calcButtons[i].style('width', '50px')
         .style('height', '50px')
         .style('background-color', "white")
