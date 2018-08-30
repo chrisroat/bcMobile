@@ -28,8 +28,18 @@ var sceneCalculator = function(p) {
     levelElem = p.createDiv("Level " + p.level).position(20, 20);
     targElem = p.createDiv("Target " + p.target).position(150, 60);
     makeScoreBar();
-    p.fill('#0000cc')
-    p.rect(50,190,280,350)
+    //make calc background
+    p.noStroke();
+    p.fill("#3399ff")
+    p.rect(50,190,280,350,10)
+
+    //draw menu bar
+
+    p.noStroke()
+    p.fill('lightgrey');
+    p.rect(0, 0, p.displayWidth, 50);
+
+
   }
 
   p.draw = function(){
@@ -140,7 +150,8 @@ var sceneCalculator = function(p) {
       .style('height', '35px')
       .style('background-color', "white")
       .style("font-size", "2em")
-      .style("align-content", "right");
+      .style("align-content", "right")
+      .style('border', 'none');
 
 
     for (let i = 0; i < p.calcButtons.length; i++) {
@@ -149,6 +160,7 @@ var sceneCalculator = function(p) {
         .style('background-color', "white")
         .style('font-size', '1em')
         .style('border-radius', '4px')
+        .style('border', 'none')
         .mousePressed(add);
     }
     p.calcButtons[12].mousePressed(zeroed)
@@ -176,59 +188,59 @@ var sceneCalculator = function(p) {
 
   p.makeBrokenKeys = function() {
     if (p.brokenKeys.indexOf('7') !== -1) {
-      p.calcButtons[0].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[0].style('background-color', '#0000cc')
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('8') !== -1) {
-      p.calcButtons[1].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[1].style('background-color', '#0000cc')
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('9') !== -1) {
-      p.calcButtons[2].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[2].style('background-color', '#0000cc')
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('/') !== -1) {
-      p.calcButtons[3].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[3].style('background-color', '#0000cc')
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('4') !== -1) {
-      p.calcButtons[4].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[4].style('background-color', '#0000cc')
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('5') !== -1) {
-      p.calcButtons[5].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[5].style('background-color', '#0000cc')
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('6') !== -1) {
-      p.calcButtons[6].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[6].style('background-color', '#0000cc')
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('*') !== -1) {
-      p.calcButtons[7].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[7].style('background-color', '#0000cc')
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('1') !== -1) {
-      p.calcButtons[8].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[8].style('background-color', '#0000cc')
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('2') !== -1) {
-      p.calcButtons[9].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[9].style('background-color', '#0000cc')
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('3') !== -1) {
-      p.calcButtons[10].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[10].style('background-color', '#0000cc')
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('-') !== -1) {
-      p.calcButtons[11].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[11].style('background-color', '#0000cc')
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('0') !== -1) {
-      p.calcButtons[13].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[13].style('background-color', '#0000cc')
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('+') !== -1) {
-      p.calcButtons[14].style('background-color', "rgb(256,0,0)")
+      p.calcButtons[14].style('background-color', '#0000cc')
         .mousePressed(donothing);
     }
   }
