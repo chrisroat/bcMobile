@@ -108,8 +108,8 @@ var sceneCalculator = function(p) {
         .style('border-radius', '4px')
         .mousePressed(add);
     }
-    p.calcButtons[13].mousePressed(zeroed)
-    p.calcButtons[15].mousePressed(equals)
+    p.calcButtons[12].mousePressed(zeroed)
+    p.calcButtons[14].mousePressed(equals)
   }
 
   function add() {
