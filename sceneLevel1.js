@@ -188,7 +188,7 @@ var sceneLevels1 = function(p) {
     level21();
   }
   function switchScreen22() {
-    document.getElementById("levelsScreen").style.display = "none";
+    document.getElementById("levelsScreen1").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level22();
   }
