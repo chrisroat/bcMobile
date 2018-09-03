@@ -1,5 +1,7 @@
 var homeScreen = new p5(sceneHome,"homeScreen");
-var levelsScreen1 = new p5(sceneLevels,"levelsScreen");
+var levelsScreen = new p5(sceneLevels,"levelsScreen");
+var levelsScreen1 = new p5(sceneLevels1,"levelsScreen1");
+var levelsScreen2 = new p5(sceneLevels2,"levelsScreen2");
 var tutorialScreen = new p5(sceneTutorial, "tutorialScreen");
 var calcScreen = new p5(sceneCalculator, "calculatorScreen");
 

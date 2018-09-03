@@ -7,6 +7,8 @@ body {
 
 canvas {
   margin: auto;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 #homeScreen {
@@ -15,14 +17,15 @@ canvas {
 #levelsScreen {
   display:none;
 }
+#levelsScreen1 {
+  display:none;
+}
+#levelsScreen2 {
+  display:none;
+}
 #calculatorScreen{
   display:none;
 }
 #tutorialScreen{
   display:none;
-}
-.slimScrollBar {
-  background: red !important;
-  opacity: 1 !important;
-  z-index: 999 !important;
 }
