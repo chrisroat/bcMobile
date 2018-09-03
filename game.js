@@ -155,3 +155,301 @@ var level15 = function(){
   calcScreen.makeCalcButtons();
   calcScreen.makeBrokenKeys();
 }
+var level16 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 16;
+  calcScreen.brokenKeys = ["1","2","5","+"];
+  calcScreen.target = 10;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level17 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 17;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["7","5", "*"];
+  calcScreen.target = 25;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level18 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 18;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level19 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 19;
+  calcScreen.brokenKeys = ["1","2","5","+"];
+  calcScreen.target = 10;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level20 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 20;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["7","5", "*"];
+  calcScreen.target = 25;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level21 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 21;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level22 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 22;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level23 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 23;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level24 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 24;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level25 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 25;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level26 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 26;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level27 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 27;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level28 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 28;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level29 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 29;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level30 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 30;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level31 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 31;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level32 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 32;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level33 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 33;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level34 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 34;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level35 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 35;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level36 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 36;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level37 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 37;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level38 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 38;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level39 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 39;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level40 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 40;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level41 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 41;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level42 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 42;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level43 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 43;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level44 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 44;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}
+var level45 = function(){
+  calcScreen.calcButtons = [];
+  calcScreen.level = 45;
+  calcScreen.clearMoveHistory();
+  calcScreen.brokenKeys = ["1","2","5", "-"];
+  calcScreen.target = 20;
+  calcScreen.score = 0;
+  calcScreen.makeCalcButtons();
+  calcScreen.makeBrokenKeys();
+}

@@ -156,7 +156,8 @@ var sceneCalculator = function(p) {
       p.calcButtons[i].style('width', '50px')
         .style('height', '50px')
         .style('background-color', "white")
-        .style('font-size', '1em')
+        .style('font-size', '1.5em')
+        .style('text-align', 'center')
         .style('border-radius', '4px')
         .style('border', 'none')
         .mousePressed(add);
@@ -238,7 +239,7 @@ var sceneCalculator = function(p) {
         .mousePressed(donothing);
     }
     if (p.brokenKeys.indexOf('+') !== -1) {
-      p.calcButtons[14].style('background-color', '#0000cc')
+      p.calcButtons[15].style('background-color', '#0000cc')
         .mousePressed(donothing);
     }
   }
