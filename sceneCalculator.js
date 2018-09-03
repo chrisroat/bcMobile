@@ -78,10 +78,51 @@ var sceneCalculator = function(p) {
   function changeLevels(){
     if (p.score === 3){
       //change alpha on level screen via localhost
-      if (p.level===14){
+      if (p.level===35){
+        level35();
+      }else if (p.level===34){
+        level35();
+      }else if (p.level===33){
+        level34();
+      }else if (p.level===32){
+        level33();
+      }else if (p.level===31){
+        level32();
+      }else if (p.level===30){
+        level31();
+      }else if (p.level===29){
+        level30();
+      }else if (p.level===28){
+        level29();
+      }else if (p.level===27){
+        level28();
+      }else if (p.level===26){
+        level27();
+      }else if (p.level===25){
+        level26();
+      }else if (p.level===24){
+        level25();
+      }else if (p.level===23){
+        level24();
+      }else if (p.level===22){
+        level23();
+      }else if (p.level===21){
+        level22();
+      }else if (p.level===20){
+        level21();
+      }else if (p.level===19){
+        level20();
+      }else if (p.level===18){
+        level19();
+      }else if (p.level===17){
+        level18();
+      }else if (p.level===16){
+        level17();
+      }else if (p.level===15){
+        level16();
+      }else if (p.level===14){
         level15();
-      }
-      if (p.level===13){
+      }else if (p.level===13){
         level14();
       }else if (p.level===12){
         level13();
