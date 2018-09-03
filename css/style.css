@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 canvas {
@@ -18,5 +19,10 @@ canvas {
   display:none;
 }
 #tutorialScreen{
-  display:none
+  display:none;
+}
+.slimScrollBar {
+  background: red !important;
+  opacity: 1 !important;
+  z-index: 999 !important;
 }
