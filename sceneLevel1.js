@@ -143,47 +143,47 @@ var sceneLevels1 = function(p) {
     }
   }
   function switchScreen13() {
-    document.getElementById("levelsScreen").style.display = "none";
+    document.getElementById("levelsScreen1").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level13();
   }
   function switchScreen14() {
-    document.getElementById("levelsScreen").style.display = "none";
+    document.getElementById("levelsScreen1").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level14();
   }
   function switchScreen15() {
-    document.getElementById("levelsScreen").style.display = "none";
+    document.getElementById("levelsScreen1").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level15();
   }
   function switchScreen16() {
-    document.getElementById("levelsScreen").style.display = "none";
+    document.getElementById("levelsScreen1").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level16();
   }
   function switchScreen17() {
-    document.getElementById("levelsScreen").style.display = "none";
+    document.getElementById("levelsScreen1").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level17();
   }
   function switchScreen18() {
-    document.getElementById("levelsScreen").style.display = "none";
+    document.getElementById("levelsScreen1").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level18();
   }
   function switchScreen19() {
-    document.getElementById("levelsScreen").style.display = "none";
+    document.getElementById("levelsScreen1").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level19();
   }
   function switchScreen20() {
-    document.getElementById("levelsScreen").style.display = "none";
+    document.getElementById("levelsScreen1").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level20();
   }
   function switchScreen21() {
-    document.getElementById("levelsScreen").style.display = "none";
+    document.getElementById("levelsScreen1").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level21();
   }
@@ -193,12 +193,12 @@ var sceneLevels1 = function(p) {
     level22();
   }
   function switchScreen23() {
-    document.getElementById("levelsScreen").style.display = "none";
+    document.getElementById("levelsScreen1").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level23();
   }
   function switchScreen24() {
-    document.getElementById("levelsScreen").style.display = "none";
+    document.getElementById("levelsScreen1").style.display = "none";
     document.getElementById("calculatorScreen").style.display = "block";
     level24();
   }
