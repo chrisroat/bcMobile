@@ -22,8 +22,10 @@ var sceneCalculator = function(p) {
     makeBackButton();
     p.makeCalcButtons();
     p.makeBrokenKeys();
-    levelElem = p.createDiv("Level " + p.level).position(20, 20);
+    levelElem = p.createDiv("Level " + p.level).position(20, 18);
+    levelElem.style("font-size", "1.4em");
     targElem = p.createDiv("Target " + p.target).position(150, 60);
+    targElem.style("font-size", "1.4em");
     makeScoreBar();
     //make calc background
     p.noStroke();
@@ -47,32 +49,31 @@ var sceneCalculator = function(p) {
     if (p.score === 1){
       p.fill('pink');
       p.noStroke();
-      p.ellipse(70,120,10,10);
+      p.ellipse(70,120,15,15);
     }
     if (p.score === 2){
       p.fill('pink');
       p.noStroke();
-      p.ellipse(70,120,10,10);
-      p.ellipse(190,120,10,10);
+      p.ellipse(70,120,15,15);
+      p.ellipse(190,120,15,15);
     }
     if (p.score === 3){
       p.fill('pink');
       p.noStroke();
-      p.ellipse(70,120,10,10);
-      p.ellipse(190,120,10,10);
-      p.ellipse(310,120,10,10);
+      p.ellipse(70,120,15,15);
+      p.ellipse(190,120,15,15);
+      p.ellipse(310,120,15,15);
       localStorage.setItem('level'+p.level, true);
     }
     changeLevels();
   }
 
   function makeScoreBar(){
-    p.stroke(10);
+    p.noStroke();
     p.fill('black');
-    p.line(70,120,310,120);
-    p.ellipse(70,120,10,10);
-    p.ellipse(190,120,10,10);
-    p.ellipse(310,120,10,10);
+    p.ellipse(70,120,15,15);
+    p.ellipse(190,120,15,15);
+    p.ellipse(310,120,15,15);
   }
 
   function changeLevels(){
@@ -197,7 +198,7 @@ var sceneCalculator = function(p) {
       p.calcButtons[i].style('width', '50px')
         .style('height', '50px')
         .style('background-color', "white")
-        .style('font-size', '1em')
+        .style('font-size', '1.4em')
         .style('text-align', 'center')
         .style('border-radius', '4px')
         .style('border', 'none')

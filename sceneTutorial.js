@@ -31,7 +31,7 @@ var sceneTutorial = function(p){
 
   }
   function back() {
-    document.getElementById('levelsScreen').style.display = 'block'
+    document.getElementById('homeScreen').style.display = 'block'
     document.getElementById('tutorialScreen').style.display = 'none'
   }
   function createButtons() {

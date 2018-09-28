@@ -5,7 +5,6 @@ var sceneLevels1 = function(p) {
   }
   p.level = 0;
   var backButton;
-  var tutorialButton;
   var numberOfLevels = 15;
   var nextButton;
 
@@ -86,7 +85,6 @@ var sceneLevels1 = function(p) {
   function createButtons() {
 
     backButton = p.createButton('Back').position((p.displayWidth / 2) - 140, 13)
-    tutorialButton = p.createButton('Tutorial').position((p.displayWidth / 2) + 60, 13)
 
     backButton.style('height', '30px')
       .style('width', '90px')
@@ -99,17 +97,6 @@ var sceneLevels1 = function(p) {
       .style('border-radius', '4px')
       .touchStarted(back);
 
-    tutorialButton.style('height', '30px')
-      .style('width', '90px')
-      .style('background-color', "#3399ff")
-      .style("font-size", "1em")
-      .style('font', myFont)
-      .style('text-align', 'center')
-      .style("align-content", "right")
-      .style('border-radius', '4px')
-      .style('border', 'none')
-      .touchStarted(tutorial);
-    // add a touchStarted
 
   }
 
